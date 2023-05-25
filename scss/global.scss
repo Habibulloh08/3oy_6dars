@@ -1,0 +1,25 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing:border-box;
+}
+$with:200px;
+$border:1px solid;
+$with:100%;
+@mixin container {
+    width: 1300px;
+    margin: 0 auto;
+    padding: 0 50px 0;
+    // border:1px solid;
+  }
+  @mixin a{
+    text-decoration: none;
+    color:black;
+    opacity: 0.7;
+    font-family: Roboto;
+  }
+  @mixin text{
+    text-decoration: none;
+    color:black;
+
+  }

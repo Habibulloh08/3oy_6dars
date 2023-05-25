@@ -1,0 +1,291 @@
+@import url("https://fonts.googleapis.com/css2?family=Bokor&family=Fredoka:wght@600&family=Montserrat:wght@500&family=Open+Sans:ital@1&family=Roboto:ital@1&family=Source+Sans+Pro&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  margin: 0 auto;
+}
+.header .container {
+  width: 1300px;
+  margin: 0 auto;
+  padding: 0 50px 0;
+}
+.header .container .header-nav {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header .container .header-nav .header-nav_logo {
+  display: flex;
+  gap: 35px;
+  align-items: center;
+  cursor: pointer;
+}
+.header .container .header-nav .header-nav_logo .nav-logo_katalog {
+  width: 130px;
+  height: 40px;
+  background-color: #eaeaf9;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+  gap: 10px;
+  cursor: pointer;
+}
+.header .container .header-nav .header-nav_logo .nav-logo_katalog a {
+  text-decoration: none;
+  color: #005eff;
+}
+.header .container .header-nav .header-nav_input {
+  width: 400px;
+  height: 40px;
+  border: 1px solid rgba(118, 121, 127, 0.3);
+  border-radius: 5px;
+}
+.header .container .header-nav #input {
+  outline: none;
+  border: 1px solid rgba(118, 121, 127, 0.3);
+  padding: 10px;
+  border: none;
+  width: 300px;
+}
+.header .container .header-nav .nav-search_btn {
+  background-color: #f8f8f8;
+  width: 76px;
+  height: 40px;
+  border: none;
+  border-bottom-right-radius: 8px;
+  border-top-right-radius: 8px;
+  margin-left: 16.5px;
+  cursor: pointer;
+}
+.header .container .header-nav .header-nav_list {
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+  gap: 20px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+.header .container .header-nav .header-nav_list a {
+  text-decoration: none;
+  font-style: inherit;
+  color: black;
+  font-size: 16pt;
+}
+.header .container .header-nav .header-nav_list li {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.header .container .header-nav-bottom {
+  width: 100%;
+  margin-top: 20px;
+}
+.header .container .header-nav-bottom .header-nav-bottom_list {
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+  align-items: center;
+}
+.header .container .header-nav-bottom .header-nav-bottom_list li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header .container .header-nav-bottom .header-nav-bottom_list li a {
+  text-decoration: none;
+  color: black;
+  opacity: 0.7;
+  font-family: Roboto;
+  transition: all 0.5s 0s linear;
+}
+.header .container .header-nav-bottom .header-nav-bottom_list li a:hover {
+  text-decoration: none;
+  color: black;
+  opacity: 0.7;
+  font-family: Roboto;
+  margin-left: 6px;
+  border-bottom: 2px solid;
+  opacity: 1;
+}
+.header .container .header-hero {
+  position: relative;
+}
+.header .container .header-hero .header-hero_img img {
+  width: 100%;
+  height: 420px;
+  border-radius: 30px;
+  margin-top: 20px;
+}
+.header .container .header-hero .header-hero_img {
+  width: 100%;
+}
+.header .container .header-hero .header-hero_sign1 {
+  position: absolute;
+  top: 230px;
+  left: 10px;
+  border-radius: 20px;
+  border: 1px solid rgba(118, 121, 127, 0.3);
+  background: #fff;
+  opacity: 0.5;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.header .container .header-hero #header-hero_sign2 {
+  position: absolute;
+  top: 230px;
+  right: 10px;
+  border-radius: 20px;
+  border: 1px solid rgba(118, 121, 127, 0.3);
+  background: #fff;
+  transition: all 0.3s ease-in-out;
+  opacity: 0.5;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.offer {
+  padding: 40px 0 100px 0;
+  margin: 0 auto;
+}
+.offer .container {
+  width: 1300px;
+  margin: 0 auto;
+  padding: 0 50px 0;
+}
+.offer .container .offer-title {
+  display: flex;
+  align-items: center;
+  font-size: 17pt;
+  font-style: normal;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+.offer .container .offer-main {
+  list-style: none;
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+  justify-content: space-between;
+  gap: 20px;
+  cursor: pointer;
+  position: relative;
+  row-gap: 15px;
+}
+.offer .container .offer-main img {
+  width: 210px;
+  border-radius: 10px;
+  transition: all 1s 0s linear;
+}
+.offer .container #varible:hover {
+  margin-left: -1px;
+  margin-top: 2px;
+}
+.offer .container .offer-main_itm {
+  list-style: none;
+  margin-left: -15px;
+  transition: all 1s 0s linear;
+  width: 240px;
+  margin-top: 5px;
+}
+.offer .container .offer-main_itm a {
+  text-decoration: none;
+  color: black;
+  margin-left: -5px;
+}
+.offer .container .offer-main_itm .main-itm_span {
+  background-color: yellow;
+}
+.offer .container .offer-main_itm s {
+  opacity: 0.7;
+}
+.offer .container .offer-main_itm li {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-left: 20px;
+}
+.offer .container .offer-main_itm:hover {
+  box-shadow: 1px 1px 1px 1px grey;
+}
+.offer .container .text {
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  word-break: break-all;
+  overflow: hidden;
+  line-height: 21px;
+  background-color: greenyellow;
+  width: 110px;
+  height: 25px;
+  border-radius: 5px;
+  font-weight: 500;
+  text-align: center;
+  padding: 5px;
+  position: absolute;
+  top: 255px;
+}
+.offer .container .offer-btn {
+  width: 720px;
+  height: 60px;
+  margin-left: 300px;
+  margin-top: 60px;
+  border: none;
+  border-radius: 10px;
+  font-size: 15pt;
+  font-weight: 550;
+}
+
+.footer {
+  padding: -30px 0 0px 0;
+  margin: 0 auto;
+}
+.footer .container {
+  width: 1300px;
+  margin: 0 auto;
+  padding: 0 50px 0;
+}
+.footer .container .footer-list {
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+  cursor: pointer;
+}
+.footer .container .footer-list_itm {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.footer .container .footer-list_itm .footer-list_icon {
+  display: flex;
+  gap: 10px;
+}
+.footer .container .footer-list_itm .list-icon2_itm {
+  display: flex;
+  gap: 25px;
+}
+.footer .container .footer-end {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+  border-top: 1px solid gray;
+  padding-top: 15px;
+}
+.footer .container .footer-end h3 {
+  font-weight: 500;
+}
+.footer .container .footer-end p {
+  font-size: 15px;
+  opacity: 0.8;
+}/*# sourceMappingURL=main.css.map */
